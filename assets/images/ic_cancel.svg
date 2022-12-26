@@ -1,0 +1,4 @@
+<svg id="Cancel" xmlns="http://www.w3.org/2000/svg" width="10.5" height="10.5" viewBox="0 0 10.5 10.5">
+  <path id="Shape" d="M-.25,9.5a.748.748,0,0,1-.53-.22.75.75,0,0,1,0-1.061l9-9a.75.75,0,0,1,1.061,0A.75.75,0,0,1,9.28.28l-9,9A.748.748,0,0,1-.25,9.5Z" transform="translate(1 1)" fill="#3b3e4f"/>
+  <path id="Shape-2" data-name="Shape" d="M8.75,9.5a.748.748,0,0,1-.53-.22l-9-9A.75.75,0,0,1-.78-.78.75.75,0,0,1,.28-.78l9,9A.75.75,0,0,1,8.75,9.5Z" transform="translate(1 1)" fill="#3b3e4f"/>
+</svg>

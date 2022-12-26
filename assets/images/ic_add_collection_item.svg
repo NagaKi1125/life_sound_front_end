@@ -1,0 +1,14 @@
+<svg id="add_receipt" data-name="add receipt" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_16987" data-name="Group 16987">
+    <circle id="Ellipse_9923" data-name="Ellipse 9923" cx="16" cy="16" r="16" fill="#3b3e4f" opacity="0.2"/>
+    <g id="Group_20348" data-name="Group 20348" transform="translate(-3814 -6763)">
+      <rect id="Rectangle_8561" data-name="Rectangle 8561" width="16" height="16" rx="8" transform="translate(3822 6771)" fill="#3b3e4f"/>
+      <g id="Group_20347" data-name="Group 20347" transform="translate(3826.449 6775.449)">
+        <g id="plus">
+          <path id="Shape" d="M-.553,6.1A.445.445,0,0,1-1,5.657V-.556A.445.445,0,0,1-.553-1a.445.445,0,0,1,.447.444V5.657A.445.445,0,0,1-.553,6.1Z" transform="translate(4.104 1)" fill="#fff"/>
+          <path id="Shape-2" data-name="Shape" d="M5.657-.106H-.556A.445.445,0,0,1-1-.553.445.445,0,0,1-.556-1H5.657A.445.445,0,0,1,6.1-.553.445.445,0,0,1,5.657-.106Z" transform="translate(1 4.104)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

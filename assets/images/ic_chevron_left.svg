@@ -1,0 +1,12 @@
+<svg id="chevron-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="26" height="26" fill="#2bafb7" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42" data-name="Mask Group 42" clip-path="url(#clip-path)">
+    <g id="chevron-left-2" data-name="chevron-left" transform="translate(8.667 5.417)">
+      <path id="Shape" d="M6.583,14.167a1.08,1.08,0,0,1-.766-.317l-6.5-6.5a1.083,1.083,0,0,1,0-1.532l6.5-6.5A1.083,1.083,0,0,1,7.349.849L1.615,6.583l5.734,5.734a1.083,1.083,0,0,1-.766,1.849Z" transform="translate(1 1)" fill="#2bafb7"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="Delete_Attribute" data-name="Delete Attribute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2477" data-name="Rectangle 2477" width="15.16" height="15.16" fill="#3b3e4f"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_9923" data-name="Ellipse 9923" cx="16" cy="16" r="16" fill="#3b3e4f" opacity="0.2"/>
+  <g id="Group_19692" data-name="Group 19692" transform="translate(8.42 8.42)">
+    <g id="Group_16403" data-name="Group 16403" clip-path="url(#clip-path)">
+      <path id="Path_27891" data-name="Path 27891" d="M13.763,0H5.386a1.4,1.4,0,0,0-1.4,1.4V3.989H1.4A1.4,1.4,0,0,0,0,5.386v8.378a1.4,1.4,0,0,0,1.4,1.4H9.774a1.4,1.4,0,0,0,1.4-1.4V11.17h2.593a1.4,1.4,0,0,0,1.4-1.4V1.4a1.4,1.4,0,0,0-1.4-1.4M9.973,13.763a.2.2,0,0,1-.2.2H1.4a.2.2,0,0,1-.2-.2V5.386a.2.2,0,0,1,.2-.2H3.989V9.774a1.4,1.4,0,0,0,1.4,1.4H9.974Zm3.989-3.989a.2.2,0,0,1-.2.2H5.386a.2.2,0,0,1-.2-.2V1.4a.2.2,0,0,1,.2-.2h8.378a.2.2,0,0,1,.2.2Z" fill="#3b3e4f"/>
+      <path id="Path_27892" data-name="Path 27892" d="M22.417,129.751v9.141l9.406.265.265-3.511-5.5-.033-.331-3.251-.3-2.909s-3.146-.265-3.544.3" transform="translate(-21.619 -124.781)" fill="#3b3e4f"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="add_manuall" data-name="add manuall" transform="translate(-16 -680)">
+    <circle id="Ellipse_9923" data-name="Ellipse 9923" cx="16" cy="16" r="16" transform="translate(16 680)" fill="#3b3e4f" opacity="0.2"/>
+    <g id="Iconly_Bold_Paper_Plus" data-name="Iconly/Bold/Paper Plus" transform="translate(26 689)">
+      <g id="Paper_Plus" data-name="Paper Plus" transform="translate(0 0)">
+        <path id="Paper_Plus-2" data-name="Paper Plus" d="M3.574,15A3.558,3.558,0,0,1,0,11.468V3.382A3.4,3.4,0,0,1,3.414,0H7.458a.347.347,0,0,1,.348.345V2.76a2.53,2.53,0,0,0,2.529,2.5c.323,0,.607,0,.858,0l.52,0,.4,0c.175,0,.372,0,.548,0A.339.339,0,0,1,13,5.6v6.03A3.392,3.392,0,0,1,9.593,15Zm.348-6.757A.562.562,0,0,0,4.49,8.8h1.3v1.3a.564.564,0,0,0,1.128,0V8.8H8.23a.559.559,0,1,0,0-1.117H6.92v-1.3a.564.564,0,0,0-1.128,0v1.3H4.49A.566.566,0,0,0,3.922,8.243ZM10.436,4.17A1.528,1.528,0,0,1,8.908,2.657V.68a.362.362,0,0,1,.622-.25l3.048,3.14a.357.357,0,0,1-.259.605h-.493C11.336,4.176,10.829,4.174,10.436,4.17Z" fill="#3b3e4f"/>
+      </g>
+    </g>
+  </g>
+</svg>

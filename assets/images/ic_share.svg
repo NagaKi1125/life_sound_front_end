@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Share_item" data-name="Share item" transform="translate(-16 -672)">
+    <circle id="Ellipse_9925" data-name="Ellipse 9925" cx="16" cy="16" r="16" transform="translate(16 672)" fill="#3B3E4F" opacity="0.2"/>
+    <g id="Iconly_Bold_Send" data-name="Iconly/Bold/Send" transform="translate(25 681)">
+      <g id="Send">
+        <path id="Send-2" data-name="Send" d="M13.6.407A1.353,1.353,0,0,0,12.253.055L.986,3.332A1.343,1.343,0,0,0,.017,4.4a1.577,1.577,0,0,0,.7,1.472L4.242,8.034A.913.913,0,0,0,5.369,7.9L9.4,3.839a.514.514,0,0,1,.742,0,.534.534,0,0,1,0,.747L6.1,8.646a.926.926,0,0,0-.135,1.133l2.153,3.558A1.337,1.337,0,0,0,9.284,14a1.455,1.455,0,0,0,.175-.007,1.365,1.365,0,0,0,1.141-.972l3.34-11.253A1.375,1.375,0,0,0,13.6.407" transform="translate(0 0)" fill="#3B3E4F"/>
+      </g>
+    </g>
+  </g>
+</svg>

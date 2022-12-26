@@ -1,0 +1,48 @@
+<resources>
+    <color name="main_tab_selected">#2BAFB7</color>
+    <color name="main_tab_unselected">#B8C3CC</color>
+    <color name="accent">#2BAFB7</color>
+    <color name="search_query_text">#2399FF</color>
+
+    <!-- ADD ITEM SCREEN -->
+    <color name="text_item_menu">#3B3E4F</color>
+    <color name="menu_modal_bottom_sheet_bg">#EFEEF3</color>
+    <color name="touch_bar_modal_bottom_sheet">#585D75</color>
+    <color name="add_item_text_app_bar">#31B1B9</color>
+    <color name="add_item_text_caption">#0F172A</color>
+    <color name="add_item_bottom_sheet_image">#007AFF</color>
+    <color name="add_item_bg">#F8FAFC</color>
+    <color name="add_item_image_add_bg">#E2E8F0</color>
+    <color name="add_item_bottom_sheet_bg">#DEDFE1</color>
+    <color name="add_item_input_enable_border">#E7EAED</color>
+    <color name="add_item_category_search_bg">#EEEEF0</color>
+    <color name="add_item_category_search_text">#b0afb3</color>
+    <color name="add_item_category_item_selected">#E2E8F0</color>
+    <color name="add_item_session_divider">#C7C7C7</color>
+    <color name="add_item_notice_text">#585D75</color>
+    <color name="add_item_receipt_btn">#2BAFB7</color>
+    <color name="add_item_receipt_btn_bg">#E3F3F5</color>
+    <color name="add_item_input_hint">#e0e3e7</color>
+
+    <color name="category_btn_disable">#91d4d9</color>
+    <color name="primary_text">#3b3e4f</color>
+    <color name="warm_gray">#707070</color>
+    <color name="pale_gray">#f8fafc</color>
+    <color name="delete_item">#eb605a</color>
+    <color name="image_plus">#eef0f9</color>
+
+    <color name="delete_collection">#b72b51</color>
+
+    <color name="collection_delete_icon_box">#FFB72B51</color>
+    <color name="collection_delete_icon_box_shadow">#40861332</color>
+
+    <color name="collection_item_banner_bg">#333333</color>
+
+    <color name="onboarding_button_background">#80E2E8F0</color>
+    <color name="onboarding_button_text">#36454F</color>
+
+    <color name="ic_home_notification">#f1f5f9</color>
+    <color name="home_setting_text">#313131</color>
+    <color name="home_item_category">#898b95</color>
+    <color name="home_family_count">#dd5097</color>
+</resources>

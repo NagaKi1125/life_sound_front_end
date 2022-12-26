@@ -1,0 +1,16 @@
+<svg id="Component_547_9" data-name="Component 547 – 9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_148" data-name="Rectangle 148" width="16" height="16" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_9925" data-name="Ellipse 9925" cx="12" cy="12" r="12" fill="#fff"/>
+  <g id="plus" transform="translate(4 4)">
+    <g id="Mask_Group_162" data-name="Mask Group 162" transform="translate(16) rotate(90)" clip-path="url(#clip-path)">
+      <g id="plus-2" data-name="plus" transform="translate(8 1.4) rotate(45)">
+        <path id="Shape" d="M-.413,8.333A.585.585,0,0,1-1,7.75V-.417A.585.585,0,0,1-.413-1a.585.585,0,0,1,.587.583V7.75A.585.585,0,0,1-.413,8.333Z" transform="translate(5.079 1)"/>
+        <path id="Shape-2" data-name="Shape" d="M7.75.175H-.417A.585.585,0,0,1-1-.413.585.585,0,0,1-.417-1H7.75a.585.585,0,0,1,.583.587A.585.585,0,0,1,7.75.175Z" transform="translate(1 5.079)"/>
+      </g>
+    </g>
+  </g>
+</svg>
