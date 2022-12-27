@@ -18,8 +18,7 @@ class MainPage extends ConsumerStatefulWidget {
 
 class _MainPageState extends ConsumerState<MainPage> {
   final List<Widget> _pages = const [
-    KeepAliveWrapper(child: HomePage()),
-
+    HomePage(),
   ];
 
   final PageController _pageController = PageController();

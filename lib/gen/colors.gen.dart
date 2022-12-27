@@ -94,6 +94,12 @@ class ColorName {
   /// Color: #eef0f9
   static const Color imagePlus = Color(0xFFEEF0F9);
 
+  /// Color: #6F35A5
+  static const Color kPrimaryColor = Color(0xFF6F35A5);
+
+  /// Color: #F1E6FF
+  static const Color kPrimaryLightColor = Color(0xFFF1E6FF);
+
   /// Color: #2BAFB7
   static const Color mainTabSelected = Color(0xFF2BAFB7);
 

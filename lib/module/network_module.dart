@@ -4,7 +4,7 @@ import '../../../api/api_service.dart';
 import '../../../api/auth_service.dart';
 import '../../../di/provider/dio_provider.dart';
 
-String restApiEndpoint = '';
+String restApiEndpoint = 'http://192.168.1.165:3000/api/';
 
 @module
 abstract class NetworkModule {

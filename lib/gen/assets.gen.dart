@@ -24,15 +24,21 @@ class $AssetsFontsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/chat.svg
+  SvgGenImage get chat => const SvgGenImage('assets/images/chat.svg');
+
+  /// File path: assets/images/facebook.svg
+  SvgGenImage get facebook => const SvgGenImage('assets/images/facebook.svg');
+
+  /// File path: assets/images/google-plus.svg
+  SvgGenImage get googlePlus =>
+      const SvgGenImage('assets/images/google-plus.svg');
+
   /// File path: assets/images/google.png
   AssetGenImage get google => const AssetGenImage('assets/images/google.png');
 
   /// File path: assets/images/ic_add.svg
   SvgGenImage get icAdd => const SvgGenImage('assets/images/ic_add.svg');
-
-  /// File path: assets/images/ic_add_collection_empty.svg
-  SvgGenImage get icAddCollectionEmpty =>
-      const SvgGenImage('assets/images/ic_add_collection_empty.svg');
 
   /// File path: assets/images/ic_add_collection_item.svg
   SvgGenImage get icAddCollectionItem =>
@@ -50,25 +56,9 @@ class $AssetsImagesGen {
   SvgGenImage get icAddItemClaim =>
       const SvgGenImage('assets/images/ic_add_item_claim.svg');
 
-  /// File path: assets/images/ic_add_item_collection.svg
-  SvgGenImage get icAddItemCollection =>
-      const SvgGenImage('assets/images/ic_add_item_collection.svg');
-
-  /// File path: assets/images/ic_add_item_empty_state_collection.svg
-  SvgGenImage get icAddItemEmptyStateCollection =>
-      const SvgGenImage('assets/images/ic_add_item_empty_state_collection.svg');
-
-  /// File path: assets/images/ic_add_item_family_sharing.svg
-  SvgGenImage get icAddItemFamilySharing =>
-      const SvgGenImage('assets/images/ic_add_item_family_sharing.svg');
-
   /// File path: assets/images/ic_add_item_iconly_bold_image.svg
   SvgGenImage get icAddItemIconlyBoldImage =>
       const SvgGenImage('assets/images/ic_add_item_iconly_bold_image.svg');
-
-  /// File path: assets/images/ic_add_item_receipt_document.svg
-  SvgGenImage get icAddItemReceiptDocument =>
-      const SvgGenImage('assets/images/ic_add_item_receipt_document.svg');
 
   /// File path: assets/images/ic_add_item_upload.svg
   SvgGenImage get icAddItemUpload =>
@@ -97,9 +87,6 @@ class $AssetsImagesGen {
   SvgGenImage get icBackground =>
       const SvgGenImage('assets/images/ic_background.svg');
 
-  /// File path: assets/images/ic_bank_id.svg
-  SvgGenImage get icBankId => const SvgGenImage('assets/images/ic_bank_id.svg');
-
   /// File path: assets/images/ic_cancel.svg
   SvgGenImage get icCancel => const SvgGenImage('assets/images/ic_cancel.svg');
 
@@ -115,10 +102,6 @@ class $AssetsImagesGen {
   SvgGenImage get icChevronUp =>
       const SvgGenImage('assets/images/ic_chevron_up.svg');
 
-  /// File path: assets/images/ic_claim_is_processing.svg
-  SvgGenImage get icClaimIsProcessing =>
-      const SvgGenImage('assets/images/ic_claim_is_processing.svg');
-
   /// File path: assets/images/ic_delete_image.svg
   SvgGenImage get icDeleteImage =>
       const SvgGenImage('assets/images/ic_delete_image.svg');
@@ -126,10 +109,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/ic_delete_item_listing.svg
   SvgGenImage get icDeleteItemListing =>
       const SvgGenImage('assets/images/ic_delete_item_listing.svg');
-
-  /// File path: assets/images/ic_document.svg
-  SvgGenImage get icDocument =>
-      const SvgGenImage('assets/images/ic_document.svg');
 
   /// File path: assets/images/ic_dot_options.svg
   SvgGenImage get icDotOptions =>
@@ -145,9 +124,6 @@ class $AssetsImagesGen {
   SvgGenImage get icFacebook =>
       const SvgGenImage('assets/images/ic_facebook.svg');
 
-  /// File path: assets/images/ic_family.svg
-  SvgGenImage get icFamily => const SvgGenImage('assets/images/ic_family.svg');
-
   /// File path: assets/images/ic_filter.svg
   SvgGenImage get icFilter => const SvgGenImage('assets/images/ic_filter.svg');
 
@@ -161,66 +137,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/ic_home_merge-request.svg
   SvgGenImage get icHomeMergeRequest =>
       const SvgGenImage('assets/images/ic_home_merge-request.svg');
-
-  /// File path: assets/images/ic_home_treasure_box.svg
-  SvgGenImage get icHomeTreasureBox =>
-      const SvgGenImage('assets/images/ic_home_treasure_box.svg');
-
-  /// File path: assets/images/ic_items_insured.svg
-  SvgGenImage get icItemsInsured =>
-      const SvgGenImage('assets/images/ic_items_insured.svg');
-
-  /// File path: assets/images/ic_items_not_insured.svg
-  SvgGenImage get icItemsNotInsured =>
-      const SvgGenImage('assets/images/ic_items_not_insured.svg');
-
-  /// File path: assets/images/ic_items_razer.jpeg
-  AssetGenImage get icItemsRazer =>
-      const AssetGenImage('assets/images/ic_items_razer.jpeg');
-
-  /// File path: assets/images/ic_items_underinsured.svg
-  SvgGenImage get icItemsUnderinsured =>
-      const SvgGenImage('assets/images/ic_items_underinsured.svg');
-
-  /// File path: assets/images/ic_main_collections_tab_selected.svg
-  SvgGenImage get icMainCollectionsTabSelected =>
-      const SvgGenImage('assets/images/ic_main_collections_tab_selected.svg');
-
-  /// File path: assets/images/ic_main_collections_tab_unselected.svg
-  SvgGenImage get icMainCollectionsTabUnselected =>
-      const SvgGenImage('assets/images/ic_main_collections_tab_unselected.svg');
-
-  /// File path: assets/images/ic_main_home_tab_selected.svg
-  SvgGenImage get icMainHomeTabSelected =>
-      const SvgGenImage('assets/images/ic_main_home_tab_selected.svg');
-
-  /// File path: assets/images/ic_main_home_tab_unselected.svg
-  SvgGenImage get icMainHomeTabUnselected =>
-      const SvgGenImage('assets/images/ic_main_home_tab_unselected.svg');
-
-  /// File path: assets/images/ic_main_items_tab_selected.svg
-  SvgGenImage get icMainItemsTabSelected =>
-      const SvgGenImage('assets/images/ic_main_items_tab_selected.svg');
-
-  /// File path: assets/images/ic_main_items_tab_unselected.svg
-  SvgGenImage get icMainItemsTabUnselected =>
-      const SvgGenImage('assets/images/ic_main_items_tab_unselected.svg');
-
-  /// File path: assets/images/ic_main_policy_tab_selected.svg
-  SvgGenImage get icMainPolicyTabSelected =>
-      const SvgGenImage('assets/images/ic_main_policy_tab_selected.svg');
-
-  /// File path: assets/images/ic_main_policy_tab_unselected.svg
-  SvgGenImage get icMainPolicyTabUnselected =>
-      const SvgGenImage('assets/images/ic_main_policy_tab_unselected.svg');
-
-  /// File path: assets/images/ic_main_transactions_tab_selected.svg
-  SvgGenImage get icMainTransactionsTabSelected =>
-      const SvgGenImage('assets/images/ic_main_transactions_tab_selected.svg');
-
-  /// File path: assets/images/ic_main_transactions_tab_unselected.svg
-  SvgGenImage get icMainTransactionsTabUnselected => const SvgGenImage(
-      'assets/images/ic_main_transactions_tab_unselected.svg');
 
   /// File path: assets/images/ic_make_claim.svg
   SvgGenImage get icMakeClaim =>
@@ -278,9 +194,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/ic_share.svg
   SvgGenImage get icShare => const SvgGenImage('assets/images/ic_share.svg');
 
-  /// File path: assets/images/ic_sign_in.svg
-  SvgGenImage get icSignIn => const SvgGenImage('assets/images/ic_sign_in.svg');
-
   /// File path: assets/images/ic_sort_list.svg
   SvgGenImage get icSortList =>
       const SvgGenImage('assets/images/ic_sort_list.svg');
@@ -289,29 +202,30 @@ class $AssetsImagesGen {
   SvgGenImage get icThreeDot =>
       const SvgGenImage('assets/images/ic_three_dot.svg');
 
-  /// File path: assets/images/ic_three_dot_options.svg
-  SvgGenImage get icThreeDotOptions =>
-      const SvgGenImage('assets/images/ic_three_dot_options.svg');
+  /// File path: assets/images/login.svg
+  SvgGenImage get login => const SvgGenImage('assets/images/login.svg');
 
-  /// File path: assets/images/ic_tips_accidental.png
-  AssetGenImage get icTipsAccidental =>
-      const AssetGenImage('assets/images/ic_tips_accidental.png');
+  /// File path: assets/images/login_bottom.png
+  AssetGenImage get loginBottom =>
+      const AssetGenImage('assets/images/login_bottom.png');
 
-  /// File path: assets/images/ic_tips_new_for_old.png
-  AssetGenImage get icTipsNewForOld =>
-      const AssetGenImage('assets/images/ic_tips_new_for_old.png');
+  /// File path: assets/images/main_bottom.png
+  AssetGenImage get mainBottom =>
+      const AssetGenImage('assets/images/main_bottom.png');
 
-  /// File path: assets/images/ic_tips_theft.png
-  AssetGenImage get icTipsTheft =>
-      const AssetGenImage('assets/images/ic_tips_theft.png');
+  /// File path: assets/images/main_top.png
+  AssetGenImage get mainTop =>
+      const AssetGenImage('assets/images/main_top.png');
 
-  /// File path: assets/images/ic_tips_travel.png
-  AssetGenImage get icTipsTravel =>
-      const AssetGenImage('assets/images/ic_tips_travel.png');
+  /// File path: assets/images/signup.svg
+  SvgGenImage get signup => const SvgGenImage('assets/images/signup.svg');
 
-  /// File path: assets/images/insuro_logo.png
-  AssetGenImage get insuroLogo =>
-      const AssetGenImage('assets/images/insuro_logo.png');
+  /// File path: assets/images/signup_top.png
+  AssetGenImage get signupTop =>
+      const AssetGenImage('assets/images/signup_top.png');
+
+  /// File path: assets/images/twitter.svg
+  SvgGenImage get twitter => const SvgGenImage('assets/images/twitter.svg');
 }
 
 class Assets {
