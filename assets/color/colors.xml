@@ -4,6 +4,11 @@
     <color name="accent">#2BAFB7</color>
     <color name="search_query_text">#2399FF</color>
 
+    <!-- Auth screen -->
+    <color name="k_primary_color">#6F35A5</color>
+    <color name="k_primary_light_color">#F1E6FF</color>
+    
+
     <!-- ADD ITEM SCREEN -->
     <color name="text_item_menu">#3B3E4F</color>
     <color name="menu_modal_bottom_sheet_bg">#EFEEF3</color>

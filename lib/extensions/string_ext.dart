@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:life_sound/router/app_router.dart';
 
 
 extension StringExt on String {
@@ -12,7 +13,6 @@ extension StringExt on String {
   String capitalize() {
     return "${this[0].toUpperCase()}${this.substring(1).toLowerCase()}";
   }
-
 
 }
 
