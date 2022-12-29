@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:life_sound/ui/favorite/favorite_page.dart';
+import 'package:life_sound/ui/music_player/player_page.dart';
+import 'package:life_sound/ui/profile/profile_page.dart';
 
+import '../router/app_route.dart';
 import '../widget/app_bottom_nav_bar.dart';
 import '../widget/keep_alive_wrapper.dart';
 import 'home/home_page.dart';
@@ -12,6 +16,14 @@ final selectedTabMainPageIndexProvider =
 class MainPage extends ConsumerStatefulWidget {
   const MainPage({Key? key}) : super(key: key);
 
+  static Page page() {
+    return const MaterialPage(
+      name: AppRoute.mainPath,
+      key: ValueKey(AppRoute.mainPath),
+      child: MainPage(),
+    );
+  }
+
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _MainPageState();
 }
@@ -19,6 +31,7 @@ class MainPage extends ConsumerStatefulWidget {
 class _MainPageState extends ConsumerState<MainPage> {
   final List<Widget> _pages = const [
     HomePage(),
+    ProfilePage(),
   ];
 
   final PageController _pageController = PageController();

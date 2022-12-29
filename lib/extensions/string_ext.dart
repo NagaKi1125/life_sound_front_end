@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:life_sound/router/app_router.dart';
+import 'package:life_sound/router/app_route.dart';
 
 
 extension StringExt on String {

@@ -3,6 +3,7 @@ import 'package:life_sound/api/request/login_request.dart';
 import 'package:life_sound/api/request/register_request.dart';
 import 'package:life_sound/api/response/register_account_response.dart';
 import 'package:life_sound/api/response/login_response.dart';
+import 'package:life_sound/api/response/user_response.dart';
 import 'package:retrofit/retrofit.dart';
 
 part 'auth_service.g.dart';
@@ -18,4 +19,6 @@ abstract class AuthService {
   @FormUrlEncoded()
   @POST('auth/register')
   Future<RegisterAccountResponse> register(@Body() RegisterRequest request);
+
+  
 }

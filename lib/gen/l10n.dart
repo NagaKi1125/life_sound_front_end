@@ -60,30 +60,30 @@ class S {
     );
   }
 
-  /// `Items`
+  /// `Player`
   String get main_tab_items {
     return Intl.message(
-      'Items',
+      'Player',
       name: 'main_tab_items',
       desc: '',
       args: [],
     );
   }
 
-  /// `Collections`
+  /// `Favorite`
   String get main_tab_collections {
     return Intl.message(
-      'Collections',
+      'Favorite',
       name: 'main_tab_collections',
       desc: '',
       args: [],
     );
   }
 
-  /// `Transactions`
+  /// `Profile`
   String get main_tab_transactions {
     return Intl.message(
-      'Transactions',
+      'Profile',
       name: 'main_tab_transactions',
       desc: '',
       args: [],
@@ -240,6 +240,16 @@ class S {
     );
   }
 
+  /// `Search`
+  String get search {
+    return Intl.message(
+      'Search',
+      name: 'search',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Done`
   String get done {
     return Intl.message(
@@ -365,6 +375,46 @@ class S {
     return Intl.message(
       'Sign up',
       name: 'sign_up',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recommend for you`
+  String get trending_right_now {
+    return Intl.message(
+      'Recommend for you',
+      name: 'trending_right_now',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recent listen`
+  String get recent_listen {
+    return Intl.message(
+      'Recent listen',
+      name: 'recent_listen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Top artist`
+  String get top_artist {
+    return Intl.message(
+      'Top artist',
+      name: 'top_artist',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover`
+  String get discover {
+    return Intl.message(
+      'Discover',
+      name: 'discover',
       desc: '',
       args: [],
     );

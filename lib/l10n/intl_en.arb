@@ -1,9 +1,9 @@
 {
   "@@locale": "en",
   "main_tab_home": "Home",
-  "main_tab_items": "Items",
-  "main_tab_collections": "Collections",
-  "main_tab_transactions": "Transactions",
+  "main_tab_items": "Player",
+  "main_tab_collections": "Favorite",
+  "main_tab_transactions": "Profile",
   "main_tab_policy": "Policy",
   "scan": "Scan",
   "upload": "Upload",
@@ -19,6 +19,7 @@
   "delete": "Delete",
   "options": "Options",
   "details": "Details",
+  "search": "Search",
   "done": "Done",
   "remove": "Remove",
   "collection": "Collection",
@@ -31,5 +32,9 @@
   "register_password":"Your Password",
   "register_confirm_password":"Confirm Password",
   "login":"login",
-  "sign_up":"Sign up"
+  "sign_up":"Sign up",
+  "trending_right_now":"Recommend for you",
+  "recent_listen":"Recent listen",
+  "top_artist":"Top artist",
+  "discover":"Discover"
 }
