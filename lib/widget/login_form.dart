@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:life_sound/router/app_router.dart';
+import 'package:life_sound/router/app_route.dart';
 import '../../../gen/colors.gen.dart';
 import '../../../resource/dimens.dart';
 import '../../../ui/auth/register/register_account_page.dart';
@@ -51,7 +51,7 @@ class LoginForm extends StatelessWidget {
             tag: "login_btn",
             child: ElevatedButton(
               onPressed: () {
-                context.goNamed(RouterName.home.name);
+                // context.goNamed(RouterName.home.name);
               },
               child: Text(
                 "Login".toUpperCase(),

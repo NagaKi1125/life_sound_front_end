@@ -11,6 +11,7 @@ abstract class AuthRepository {
 
   Future<Register> register(
       {required String name, required String email, required String password});
+
 }
 
 @Singleton(as: AuthRepository)

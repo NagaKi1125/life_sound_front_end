@@ -62,9 +62,12 @@ dependencies:
   flutter_staggered_grid_view: ^0.6.2
   path_provider: ^2.0.11
   flutter_secure_storage: ^6.0.0
+  shared_preferences: ^2.0.15
   dotted_border: ^2.0.0+3
   photo_view: ^0.14.0
   build_web_compilers: ^3.0.0
+  audioplayers: ^1.1.1
+  flutter_config: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -87,6 +90,7 @@ dev_dependencies:
   mockito: ^5.2.0
   retrofit_generator: ^4.0.1
   collection: ^1.16.0
+  
 
 flutter_gen:
   integrations:

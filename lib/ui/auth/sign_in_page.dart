@@ -6,12 +6,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:life_sound/router/app_route.dart';
 import 'package:life_sound/router/app_router.dart';
+import 'package:life_sound/router/navigation_manager.dart';
 import 'package:life_sound/ui/auth/register/register_account_page.dart';
+import 'package:life_sound/ui/main_page.dart';
 import 'package:life_sound/usecases/auth/get_login_state_use_case.dart';
 import 'package:life_sound/usecases/auth/login_use_case.dart';
 import 'package:life_sound/usecases/auth/store_access_token_use_case.dart';
-import 'package:life_sound/utils/custom_toast.dart';
+import 'package:life_sound/utils/toast_util.dart';
 import 'package:life_sound/widget/already_have_an_account_acheck.dart';
 import 'package:life_sound/widget/background.dart';
 import 'package:life_sound/widget/loading_indicator.dart';
@@ -49,6 +52,13 @@ final _loadingStreamProvider = StreamProvider.autoDispose<bool>(
 class SignInPage extends ConsumerStatefulWidget {
   const SignInPage({Key? key}) : super(key: key);
 
+  static Page page() {
+    return const MaterialPage(
+        name: AppRoute.signInPath,
+        key: ValueKey(AppRoute.signInPath),
+        child: SignInPage());
+  }
+
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _SignInPageState();
 }
@@ -70,6 +80,7 @@ class _SignInPageState extends ConsumerState<SignInPage> {
 
   @override
   Widget build(BuildContext context) {
+    _handleViewStateChanged(ref, context);
     _setupListeners();
 
     final state = ref.watch(signInViewModelProvider);
@@ -199,16 +210,37 @@ class _SignInPageState extends ConsumerState<SignInPage> {
     });
     ref.listen<AsyncValue<void>>(_navigateToHomeStreamProvider,
         (_, navigateToHomeAsync) {
-      context.goNamed(RouterName.home.name);
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const SignInPage()),
+      );
     });
 
     ref.listen<AsyncValue<bool>>(_getLoginStateStreamProvider,
         (_, loginStateAsync) {
       if (loginStateAsync.hasValue) {
         if (loginStateAsync.value!) {
-          context.goNamed(RouterName.home.name);
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const MainPage()),
+          );
         }
       }
+    });
+  }
+
+  void _handleViewStateChanged(WidgetRef ref, BuildContext context) {
+    ref.listen<SignInViewState>(signInViewModelProvider, (_, state) {
+      showOrHideLoading(
+          shouldShowLoading: state == const SignInViewState.loading(),
+          context: context,
+          label: context.localization.common_loading_message);
+      state.maybeWhen(
+          success: () {},
+          error: (message) {
+            showToast(context, message ?? context.localization.error_generic);
+          },
+          orElse: () {});
     });
   }
 }

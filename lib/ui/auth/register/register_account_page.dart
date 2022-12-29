@@ -1,10 +1,11 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:life_sound/router/app_router.dart';
+import 'package:life_sound/router/app_route.dart';
 import 'package:life_sound/ui/auth/sign_in_page.dart';
 import 'package:life_sound/usecases/auth/register_use_case.dart';
-import 'package:life_sound/utils/custom_toast.dart';
 import 'package:life_sound/widget/already_have_an_account_acheck.dart';
 import 'package:life_sound/widget/background.dart';
 import 'package:life_sound/widget/responsive.dart';
@@ -38,6 +39,14 @@ class RegisterAccountPage extends ConsumerStatefulWidget {
   @override
   ConsumerState<ConsumerStatefulWidget> createState() =>
       _RegisterAccountPageState();
+
+  static Page page() {
+    return const MaterialPage(
+        name: AppRoute.registerAccountPath,
+        key: ValueKey(AppRoute.registerAccountPath),
+        arguments: [],
+        child: RegisterAccountPage());
+  }
 }
 
 class _RegisterAccountPageState extends ConsumerState<RegisterAccountPage> {
@@ -159,7 +168,7 @@ class _RegisterAccountPageState extends ConsumerState<RegisterAccountPage> {
                           email: _emailEditingController.text.trim(),
                           password: _passwordEditingController.text.trim());
                 } else {
-                  showToast(context, 'Password not match');
+                  log('Password not match');
                 }
               },
               child: Text(context.localization.sign_up.toUpperCase()),
@@ -205,7 +214,10 @@ class _RegisterAccountPageState extends ConsumerState<RegisterAccountPage> {
   _setupListeners() {
     ref.listen<AsyncValue<void>>(_registerAccountSuccessStreamProvider,
         (_, registerAccountSuccessAsync) {
-      context.goNamed(RouterName.login.name);
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const SignInPage()),
+      );
     });
   }
 }

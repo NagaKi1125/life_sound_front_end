@@ -16,7 +16,7 @@ class LoginResponse {
     this.expiresIn,
     required this.user,
   });
-
+  @JsonKey(name: 'access_token')
   String? accessToken;
   @JsonKey(name: 'token_type')
   String? tokenType;

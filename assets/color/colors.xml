@@ -7,7 +7,12 @@
     <!-- Auth screen -->
     <color name="k_primary_color">#6F35A5</color>
     <color name="k_primary_light_color">#F1E6FF</color>
-    
+
+    <!-- Home screen -->
+    <color name="main_bg">#3a3458</color>
+    <color name="background">#171719</color>
+    <color name="linear_between">#040C18</color>
+
 
     <!-- ADD ITEM SCREEN -->
     <color name="text_item_menu">#3B3E4F</color>
@@ -36,18 +41,5 @@
     <color name="delete_item">#eb605a</color>
     <color name="image_plus">#eef0f9</color>
 
-    <color name="delete_collection">#b72b51</color>
 
-    <color name="collection_delete_icon_box">#FFB72B51</color>
-    <color name="collection_delete_icon_box_shadow">#40861332</color>
-
-    <color name="collection_item_banner_bg">#333333</color>
-
-    <color name="onboarding_button_background">#80E2E8F0</color>
-    <color name="onboarding_button_text">#36454F</color>
-
-    <color name="ic_home_notification">#f1f5f9</color>
-    <color name="home_setting_text">#313131</color>
-    <color name="home_item_category">#898b95</color>
-    <color name="home_family_count">#dd5097</color>
 </resources>

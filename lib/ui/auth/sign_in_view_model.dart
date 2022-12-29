@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:life_sound/model/login.dart';
 import 'package:life_sound/usecases/auth/get_login_state_use_case.dart';
@@ -58,6 +60,8 @@ class SignInViewModel extends StateNotifier<SignInViewState> {
 
     if (result is Success<Login>) {
       storeToken(result.value.accessToken, result.value.user.id);
+      log(result.value.toString());
+      log(result.value.accessToken.toString());
       _navigateToHomeSubject.add(null);
     }
 

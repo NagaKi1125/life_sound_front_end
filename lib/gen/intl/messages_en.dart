@@ -33,6 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "continue_action": MessageLookupByLibrary.simpleMessage("Continue"),
         "delete": MessageLookupByLibrary.simpleMessage("Delete"),
         "details": MessageLookupByLibrary.simpleMessage("Details"),
+        "discover": MessageLookupByLibrary.simpleMessage("Discover"),
         "done": MessageLookupByLibrary.simpleMessage("Done"),
         "error_generic": MessageLookupByLibrary.simpleMessage(
             "Something went wrong, please try again!"),
@@ -41,15 +42,16 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Get Started"),
         "login": MessageLookupByLibrary.simpleMessage("login"),
         "main_tab_collections":
-            MessageLookupByLibrary.simpleMessage("Collections"),
+            MessageLookupByLibrary.simpleMessage("Favorite"),
         "main_tab_home": MessageLookupByLibrary.simpleMessage("Home"),
-        "main_tab_items": MessageLookupByLibrary.simpleMessage("Items"),
+        "main_tab_items": MessageLookupByLibrary.simpleMessage("Player"),
         "main_tab_policy": MessageLookupByLibrary.simpleMessage("Policy"),
         "main_tab_transactions":
-            MessageLookupByLibrary.simpleMessage("Transactions"),
+            MessageLookupByLibrary.simpleMessage("Profile"),
         "no_result": MessageLookupByLibrary.simpleMessage("No results found"),
         "ok_action": MessageLookupByLibrary.simpleMessage("OK"),
         "options": MessageLookupByLibrary.simpleMessage("Options"),
+        "recent_listen": MessageLookupByLibrary.simpleMessage("Recent listen"),
         "register_confirm_password":
             MessageLookupByLibrary.simpleMessage("Confirm Password"),
         "register_email": MessageLookupByLibrary.simpleMessage("Your Email"),
@@ -59,7 +61,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "remove": MessageLookupByLibrary.simpleMessage("Remove"),
         "save": MessageLookupByLibrary.simpleMessage("Save"),
         "scan": MessageLookupByLibrary.simpleMessage("Scan"),
+        "search": MessageLookupByLibrary.simpleMessage("Search"),
         "sign_up": MessageLookupByLibrary.simpleMessage("Sign up"),
+        "top_artist": MessageLookupByLibrary.simpleMessage("Top artist"),
+        "trending_right_now":
+            MessageLookupByLibrary.simpleMessage("Recommend for you"),
         "upload": MessageLookupByLibrary.simpleMessage("Upload")
       };
 }
